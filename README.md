@@ -28,8 +28,8 @@ are vertically aligned.
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-qUHQ8MyEyk)
+- Live Site URL: [Live site](https://mehrasourav-3-column-preview-card-component.netlify.app/)
 
 ## My process
 
