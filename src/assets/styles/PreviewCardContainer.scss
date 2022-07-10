@@ -1,0 +1,10 @@
+.preview-card-container {
+    height: 31.25rem;
+    display: flex;
+}
+
+@media only screen and (max-width: 60rem) {
+    .preview-card-container {
+        flex-direction: column;
+    }
+}

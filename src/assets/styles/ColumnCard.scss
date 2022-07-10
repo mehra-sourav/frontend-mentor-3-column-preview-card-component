@@ -1,0 +1,78 @@
+.column-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 20rem;
+    color: var(--light-gray);
+    padding: 3rem;
+    position: relative;
+    
+    img {
+        max-width: 30%;
+        height: auto;
+        display: block; 
+    }
+
+    h1 {
+        font-family: 'Big Shoulders Display', sans-serif;
+        text-transform: uppercase;
+        margin: 2.5rem 0 1.5rem 0;
+        font-size: 2.5rem;
+    }
+
+    p {
+        line-height: 1.6rem;
+        color: var(--white);
+        letter-spacing: 0.05rem;
+        font-size: 90%;
+    }
+
+    button {
+        border-radius: 5rem;
+        border: 2px solid transparent;
+        margin-top: 75px;
+        background-color: var(--light-gray);
+        font-size: 95%;
+        font-weight: 700;
+        aspect-ratio: 3.08 / 1;
+        width: 9rem;
+
+        &:hover {
+            background-color: transparent;
+            color: var(--white);
+            border-color: var(--white);
+            cursor: pointer;
+        }
+    }
+}
+
+.column-card__sedans {
+    background-color: var(--orange);
+    button {
+        color: var(--orange);
+    }
+}
+
+.column-card__suvs {
+    background-color: var(--cyan);
+    button {
+        color: var(--cyan);
+    }
+}
+
+.column-card__luxury {
+    background-color: var(--dark-cyan);
+    button {
+        color: var(--dark-cyan);
+    }
+}
+
+.column-card--firstcard-left-border-radius {
+    border-top-left-radius: var(--card-border-radius);
+    border-bottom-left-radius: var(--card-border-radius); 
+}
+
+.column-card--lastcard-right-border-radius {
+    border-top-right-radius: var(--card-border-radius);
+    border-bottom-right-radius: var(--card-border-radius); 
+}
